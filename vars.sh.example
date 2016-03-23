@@ -1,0 +1,20 @@
+# Name of repository where formatted code will be pushed
+WORK_REPO="parity"
+# Onwer of the repository
+WORK_OWNER="ethcore-fmt-bot"
+# Personal Access Token generated for WORK_OWNER
+WORK_KEY="Generate Personal Access Token"
+
+# Name of repo where PR with formatted code should be created
+TARGET_REPO="parity"
+# Owner of the repo 
+TARGET_OWNER="ethcore"
+
+# -------------------
+# ---- Optionals ----
+# Branch that should be fetched and formatted (defaults to master)
+TARGET_BRANCH=master
+
+# Command to run for formatting
+# Defaults to `cargo fmt`
+# COMMAND="./fmt.sh"
