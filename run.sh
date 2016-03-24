@@ -42,7 +42,7 @@ fi
 # Clone repo
 echo "Cloning repo"
 rm -rf $WORK_DIR || true
-git clone -b $TARGET_BRANCH --single-branch "git@github.com:$TARGET_OWNER/$TARGET_REPO.git" $WORK_DIR
+git clone -b $TARGET_BRANCH --single-branch "https://github.com/$TARGET_OWNER/$TARGET_REPO.git" $WORK_DIR
 cd $WORK_DIR
 # Format code
 echo "Formatting"
