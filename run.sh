@@ -65,6 +65,6 @@ curl -i \
   
 # Cleanup
 echo "Cleaning..."
-#rm $LOG_FILE
+rm $LOG_FILE
 cd -
-#rm $WORK_DIR -rf
+rm $WORK_DIR -rf
